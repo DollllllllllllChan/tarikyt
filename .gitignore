@@ -1,0 +1,37 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.exe
+
+# Local runtime state, history, settings & cookies (privacy protection)
+*_history.jsonl
+*_settings.json
+*_state.json
+cookies.txt
+*.log
+
+# Downloaded media, temp & test artifacts
+*.mp4
+*.mkv
+*.webm
+*.mp3
+*.m4a
+*.part
+*.ytdl
+test_final_exe_downloads/
+macos_*.png
+
+# Local IDE & AI agent workspace files
+.vscode/
+.idea/
+.agent/
+.DS_Store
+Thumbs.db
