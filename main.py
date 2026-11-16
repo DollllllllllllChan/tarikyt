@@ -2467,7 +2467,7 @@ class App(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle(APP_NAME)
-        icon_path = os.path.join(APP_DIR, "assets", "tarikyt_icon.png")
+        icon_path = os.path.join(getattr(sys, "_MEIPASS", APP_DIR), "assets", "tarikyt_icon.png")
         if os.path.isfile(icon_path):
             self.setWindowIcon(QIcon(icon_path))
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.Window)
